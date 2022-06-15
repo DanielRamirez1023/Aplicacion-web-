@@ -1,0 +1,412 @@
+
+.inicio{
+    justify-content: center;
+    margin-top: 6%;
+     
+}
+.inicio button{
+    background-color: #1ca758 !important;
+    border: 1px solid white !important;
+}
+.inicio button{
+    display: block;
+    width: 20%;
+    height: 80%;
+    margin: auto;
+    box-shadow: #4f575252 4px 4px 0px;
+    transition: transform 200ms,box-shadow 200ms;
+    
+}
+
+/*efecto botones*/
+.inicio button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #3f4c45  0px 0px 0px;
+}
+
+
+.inicio img{
+    display: block;
+    margin: 20px auto 20px 580px;
+    
+}
+
+.inicio a button{
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+.inicio a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+#task-form{
+    width: 50%;
+    margin: 4% auto;
+    text-align: center;
+}
+
+#mate{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.btn{
+    width: 40%;
+    margin: 3%;
+    
+}
+
+.accordion-button:hover{
+background-color: rgba(128, 128, 128, 0.11);
+}
+
+
+
+.seccion-buscar input{
+    display: inline-block;
+    width: 40%;
+}
+
+.seccion-buscar-PDS input{
+    display: inline-block;
+    width: 30%;
+}
+
+.seccion-buscar-PDS button{
+    display: inline-block;
+    width: 15%;
+}
+
+.seccion-buscar button{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.seccion-buscar  h1{
+    text-shadow: 2px 3px 2px gray;
+}
+
+
+
+.seccion-buscar table{
+margin: auto;
+   width: 70%;
+}
+
+.seccion-buscar-PDS table{
+    margin: auto;
+       width: 60%;
+    }
+
+.tabla-productos-alterada table{
+    margin: auto;
+       width: 70%;
+    }
+
+
+
+.campo-materiales{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.campo-materiales .material{
+    border:1px solid rgba(0, 0, 0, 0.451);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 5px;
+    text-align: left;
+}
+
+.ver-materiales tr{
+    text-align: center;
+}
+
+.lista-ordenes{
+    width: 90%;
+    margin: auto;
+}
+
+.lista-ordenes .table #task-container button{
+    width: 100%;
+    margin: 0;
+    
+}
+
+.seccion-buscar .primero{
+    text-align: right;
+}
+
+.seccion-buscar .ultimo{
+    text-align: left;
+}
+
+#form-creacion-orden .primero{
+    text-align: right;
+}
+
+#form-creacion-orden {
+    text-align: center;
+}
+
+.lista-ordenes{
+    text-align: center;
+}
+
+.seccion-buscar .notificar input{
+    width: 60%;
+}
+
+
+/*estilos para la tabla de detatables*/
+
+table.dataTable thead {
+    background-color: rgb(78, 161, 112);
+    color: white;
+}
+
+.page-item.active .page-link{
+    background-color: rgb(78, 161, 112) !important;
+    color: white !important;
+   
+}
+
+
+.page-link{
+    color: black !important;
+}
+
+div.dt-buttons{
+    flex-wrap: nowrap !important;
+}
+
+#tabla_filter{
+    display: inline-block !important;
+    margin-left: 70%;
+}
+
+thead{
+    border-bottom: 1px solid black !important;
+}
+
+#flecha-subir{
+    color: rgba(0, 0, 0, 0.281);
+    display: flex;
+    transform: translate(1400px,500px);
+    position: fixed;
+}
+
+.no-activo{
+    pointer-events: none;
+    cursor: default;
+    
+}
+.alerta{
+    border: 1px solid red !important;
+}
+
+.alertaTexto{
+    color: red !important;
+    
+}
+
+.seccion-buscar input{
+    width: 40%;
+}
+
+.seccion-buscar .col-md-8{
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.seccion-buscar .col-md-4 button{
+   width: 50% !important;
+}
+
+
+.btn-notificar{
+    text-align: left;
+}
+
+
+#form-creacion-orden .col-md-4 .valid-feedback,.invalid-feedback{
+    text-align: center !important;
+}
+@media screen and (max-width:800px){
+    .inicio button{
+        display: block;
+        width: 80%;
+        margin: auto;
+        
+    }
+
+    .seccion-buscar input{
+        display: block;
+        margin: auto;
+    }
+    
+    .seccion-buscar button{
+        width: 80%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .seccion-buscar-PDS input{
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    
+    .seccion-buscar-PDS button{
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    
+    .modal{
+        text-align: center;
+    }
+
+    .lista-ordenes{
+        width: 100%;
+        margin: auto;
+    }
+
+
+#tabla-materiales td th{
+    padding: 5px 10px;
+}
+
+    .tabla-productos,.ver-materiales td{
+        padding: 0% !important;
+    }
+
+    .lista-ordenes .table #task-container button{
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    #task-form{
+        width: 80%;
+    }
+
+
+    
+
+    
+    #tabla-ordenes button{
+        width: 80%;
+    }
+
+    #tabla_filter{
+        display: block !important;
+        margin-left: 0%;
+    }
+
+    #tabla{
+        width: 100% !important;
+        font-size: .9em;
+    }
+
+    
+    /*tablas responsivas*/
+
+    #tabla-materiales tr{
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.301);
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 4px 2em 4px ;
+    }
+
+    #tabla-materiales thead{
+        display: none;
+    }
+
+    #tabla-materiales td[data-titulo]{
+        display: flex;
+
+    }
+
+    #tabla-materiales td,th{
+        border: none;
+
+    }
+
+    #tabla-materiales td[data-titulo]::before{
+        content: attr(data-titulo);
+        text-align: justify;
+        width: 150px;
+        color: rgb(166, 164, 164);
+        font-weight: bold;
+        
+    }
+
+    #flecha-subir{
+        transform: translate(320px,500px);
+    }
+
+    .seccion-buscar input{
+     width: 90% !important;
+    }
+
+    .seccion-buscar .col-md-3{
+        margin-top: 10px;
+    }
+    .seccion-buscar .primero{
+        text-align: center;
+    }
+    
+    .seccion-buscar .ultimo{
+        text-align: center;
+    }
+
+    .seccion-buscar .col-md-8{
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+
+    .notificar input{
+        width: 40% !important;
+    }
+
+    #form-creacion-orden .col-md-3{
+        text-align: center !important;
+    }
+
+    #form-creacion-orden .contenedor-crearOrden input{
+        width: 80% !important;
+    }
+
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+        margin: 20px 0px !important;
+    }
+
+    .btn{
+        margin: 5%;
+        
+    }
+
+    .lista-Ordenes div.dataTables_wrapper div.dataTables_filter label {
+        margin: 0 0 15px 0;
+    }
+    
+ }
+
